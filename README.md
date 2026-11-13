@@ -7,4 +7,3 @@ Faucet: faucet.test.mezo.org → 2000 MUSD free
 
 
 
-https://safepay-f4h5up188-team-dave5.vercel.app/
