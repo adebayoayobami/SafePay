@@ -1,0 +1,6 @@
+# SafePay Deployed — Mezo Testnet 31611
+Contract: 0xbf1a3213113c9d820976e9bc75c6219c9d996358
+Explorer: https://explorer.test.mezo.org/address/0xbf1a3213113c9d820976e9bc75c6219c9d996358
+Deploy tx: 0xedefa5850705382eaf99163a107fe1b25b9c73f0ef0124f5a7b02ed33e62f86c
+Owner: 0xD5bD923E2097FD080e5955680a9bC182A23D3234
+Constructor: MUSD 0x118917a40FAF1CD7a13dB0Ef56C86De7973Ac503, MEZO 0x7B7c...000001, Vault 0x0
