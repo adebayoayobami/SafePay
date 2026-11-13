@@ -36,6 +36,20 @@ function Demo() {
           </div>
         </div>
 
+        <div className="bg-ink rounded-card p-4 mb-6 border flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div>
+            <div className="text-white font-bold flex items-center gap-2">🚰 Need test tokens? <span className="bg-mint text-ink px-2 py-0.5 rounded-full text-xs">Free • No real money</span></div>
+            <p className="text-white/70 text-sm mt-1">Get 0.1 test BTC + 2000 MUSD + MEZO for gas/fees. Paste your wallet → Claim → return here.</p>
+          </div>
+          <div className="flex gap-2 shrink-0">
+            <a href="https://faucet.test.mezo.org" target="_blank" className="bg-mint text-ink px-5 py-2.5 rounded-full font-bold text-sm hover:opacity-90">Open Faucet ↗</a>
+            <button onClick={()=>navigator.clipboard.writeText(window.location.href)} className="bg-white/10 text-white border border-white/20 px-4 py-2.5 rounded-full text-sm">Copy app link</button>
+          </div>
+        </div>
+        <div className="bg-peach/40 border border-peach rounded-xl px-4 py-2.5 mb-6 text-sm flex items-center gap-2">
+          <span>💡</span><span><b>First time?</b> 1) Open Faucet → 2) Claim → 3) Back here → Create Escrow with <b>5 MUSD</b> → Approve → Lock. Takes 20s.</span>
+        </div>
+
         {tab==="create" ? <CreateForm /> : <EscrowList />}
 
         <div className="mt-8 bg-lilac rounded-card p-6 border">
